@@ -32,4 +32,17 @@ temp = c(-44,0,20,35)
 #converts all temperatures to fahrenheit
 (temp * (9/5)) +32
 # homework ----
+# question 1
+#prints elevation
+diffHighPeaks$elev
+# converts elevation from feet to meters
+diffHighPeaks$elev*0.3048
 
+# question 2
+# If everything was typed in the console, the code would not be able to save any progress and be unable to be replicated. This does not follow version control practices, as the code cannot be saved and the old versions would also be unable to be tracked, making changes also impossible to track.
+
+# question 3
+#variable longesttrip isolates longest trip
+longesttrip = diffHighPeaks[2,]
+
+# question 4
